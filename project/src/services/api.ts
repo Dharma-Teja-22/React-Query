@@ -11,7 +11,6 @@ const axiosInstance = axios.create({ baseURL: BASE_URL });
 export const getTodosIds = async () => {
   // the axios throws errors for unsuccessful http call automatically
   // but fetch don't
-
   return (await axiosInstance.get<Todo[]>("todos")).data.map((item) => item.id);
 };
 

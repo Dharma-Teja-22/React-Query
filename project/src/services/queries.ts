@@ -13,7 +13,6 @@ import {
   getTodosIds,
 } from "./api";
 import { Product } from "../types/product";
-
 export function useTodosIds() {
   return useQuery({
     queryKey: ["todos"],

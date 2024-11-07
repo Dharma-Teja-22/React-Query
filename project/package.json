@@ -4,5 +4,9 @@
   },
   "devDependencies": {
     "json-server": "^0.17.4"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.20",
+    "axios": "^1.7.7"
   }
 }
